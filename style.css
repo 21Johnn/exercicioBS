@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header .carousel-item{
+    height: 40vh;
+}
+
+#carouselExampleIndicators{
+    height: 40vh;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px){
+    .header .carousel-item{
+        height: 20vh;
+    }
+    
+    #carouselExampleIndicators{
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .header .carousel-item{
+        height: 15vh;
+    }
+    
+    #carouselExampleIndicators{
+        height: 15vh;
+    }
+}
+
